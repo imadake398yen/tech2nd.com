@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { AnimatedParagraph, AnimatedText } from "@/components/AnimatedText";
 
 export default function Home() {
   return (
@@ -34,29 +37,57 @@ export default function Home() {
 
           {/* キャッチコピー */}
           <h1 className="text-[24px] lg:text-[32px] font-black mb-12 lg:mb-20 tracking-tight leading-snug">
-            技術は、二番目でいい。
+            <AnimatedText delay={200} charDelay={60}>
+              技術は、二番目でいい。
+            </AnimatedText>
           </h1>
 
           {/* Concept セクション */}
           <section className="mb-12 lg:mb-16">
-            <h2 className="text-[22px] lg:text-[26px] font-black mb-6 lg:mb-8">Concept</h2>
+            <h2 className="text-[22px] lg:text-[26px] font-black mb-6 lg:mb-8">
+              <AnimatedText delay={800} charDelay={50}>
+                Concept
+              </AnimatedText>
+            </h2>
             <div className="text-[14px] lg:text-[15px] leading-[2.0] lg:leading-[2.2] font-medium text-gray-800">
-              <p>技術は手段であって、目的ではない。</p>
-              <p>一番大切なのは、あなたが実現したいこと。</p>
-              <p>その想いを形にするために、技術がある。</p>
-              <p>Tech Secondは、そういう考え方で開発をします。</p>
+              <AnimatedParagraph delay={1200} charDelay={25}>
+                技術は手段であって、目的ではない。
+              </AnimatedParagraph>
+              <AnimatedParagraph delay={1700} charDelay={25}>
+                一番大切なのは、あなたが実現したいこと。
+              </AnimatedParagraph>
+              <AnimatedParagraph delay={2200} charDelay={25}>
+                その想いを形にするために、技術がある。
+              </AnimatedParagraph>
+              <AnimatedParagraph delay={2700} charDelay={25}>
+                Tech Secondは、そういう考え方で開発をします。
+              </AnimatedParagraph>
             </div>
           </section>
 
           {/* How I Work セクション */}
           <section>
-            <h2 className="text-[22px] lg:text-[26px] font-black mb-6 lg:mb-8">How I Work</h2>
+            <h2 className="text-[22px] lg:text-[26px] font-black mb-6 lg:mb-8">
+              <AnimatedText delay={3200} charDelay={50}>
+                How I Work
+              </AnimatedText>
+            </h2>
             <div className="text-[14px] lg:text-[15px] leading-[2.0] lg:leading-[2.2] font-medium text-gray-800">
-              <p>最初に聞きたいのは、仕様ではなく「なぜそれをやりたいのか」です。</p>
-              <p>目的が明確になれば、手段は自然と見えてくる。必要な技術だけを選び、シンプルに、</p>
-              <p>確実に形にしていきます。</p>
-              <p className="mt-4">技術で驚かせることが目的ではなく、</p>
-              <p>あなたのやりたいことが実現した時に、一緒に喜べる関係を目指します。</p>
+              <AnimatedParagraph delay={3700} charDelay={20}>
+                最初に聞きたいのは、仕様ではなく「なぜそれをやりたいのか」です。
+              </AnimatedParagraph>
+              <AnimatedParagraph delay={4400} charDelay={20}>
+                目的が明確になれば、手段は自然と見えてくる。必要な技術だけを選び、シンプルに、
+              </AnimatedParagraph>
+              <AnimatedParagraph delay={5100} charDelay={20}>
+                確実に形にしていきます。
+              </AnimatedParagraph>
+              <AnimatedParagraph delay={5500} charDelay={20} className="mt-4">
+                技術で驚かせることが目的ではなく、
+              </AnimatedParagraph>
+              <AnimatedParagraph delay={5900} charDelay={20}>
+                あなたのやりたいことが実現した時に、一緒に喜べる関係を目指します。
+              </AnimatedParagraph>
             </div>
           </section>
         </div>
