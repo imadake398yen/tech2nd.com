@@ -1,0 +1,6 @@
+name = "tech2nd-com"
+
+# 静的サイトとして Cloudflare Pages にデプロイ
+pages_build_output_dir = "out"
+
+
