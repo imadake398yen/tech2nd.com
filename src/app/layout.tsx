@@ -10,7 +10,17 @@ const notoSansJP = Noto_Sans_JP({
 
 export const metadata: Metadata = {
   title: "Tech Second Inc. | 技術は、二番目でいい。",
-  description: "技術は手段であって、目的ではない。一番大切なのは、あなたが実現したいこと。その想いを形にするために、技術がある。",
+  description:
+    "技術は手段であって、目的ではない。一番大切なのは、あなたが実現したいこと。その想いを形にするために、技術がある。",
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
 };
 
 export const viewport: Viewport = {
