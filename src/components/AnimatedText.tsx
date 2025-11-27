@@ -26,7 +26,10 @@ export function AnimatedText({
           setHasStarted(true);
         }
       },
-      { threshold: 0.1 }
+      {
+        threshold: 0.1,
+        rootMargin: "50px 0px", // 少し手前から検知開始
+      }
     );
 
     if (ref.current) {

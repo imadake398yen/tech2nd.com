@@ -45,21 +45,21 @@ export default function Home() {
           {/* Concept セクション */}
           <section className="mb-12 lg:mb-16">
             <h2 className="text-[22px] lg:text-[26px] font-black mb-6 lg:mb-8">
-              <AnimatedText delay={800} charDelay={50}>
+              <AnimatedText delay={0} charDelay={50}>
                 Concept
               </AnimatedText>
             </h2>
             <div className="text-[14px] lg:text-[15px] leading-[2.0] lg:leading-[2.2] font-medium text-gray-800">
-              <AnimatedParagraph delay={1200} charDelay={25}>
+              <AnimatedParagraph delay={200} charDelay={25}>
                 技術は手段であって、目的ではない。
               </AnimatedParagraph>
-              <AnimatedParagraph delay={1700} charDelay={25}>
+              <AnimatedParagraph delay={600} charDelay={25}>
                 一番大切なのは、あなたが実現したいこと。
               </AnimatedParagraph>
-              <AnimatedParagraph delay={2200} charDelay={25}>
+              <AnimatedParagraph delay={1000} charDelay={25}>
                 その想いを形にするために、技術がある。
               </AnimatedParagraph>
-              <AnimatedParagraph delay={2700} charDelay={25}>
+              <AnimatedParagraph delay={1400} charDelay={25}>
                 Tech Secondは、そういう考え方で開発をします。
               </AnimatedParagraph>
             </div>
@@ -68,24 +68,24 @@ export default function Home() {
           {/* How I Work セクション */}
           <section className="mb-12 lg:mb-16">
             <h2 className="text-[22px] lg:text-[26px] font-black mb-6 lg:mb-8">
-              <AnimatedText delay={3200} charDelay={50}>
+              <AnimatedText delay={0} charDelay={50}>
                 How I Work
               </AnimatedText>
             </h2>
             <div className="text-[14px] lg:text-[15px] leading-[2.0] lg:leading-[2.2] font-medium text-gray-800">
-              <AnimatedParagraph delay={3700} charDelay={20}>
+              <AnimatedParagraph delay={200} charDelay={20}>
                 最初に聞きたいのは、仕様ではなく「なぜそれをやりたいのか」です。
               </AnimatedParagraph>
-              <AnimatedParagraph delay={4400} charDelay={20}>
+              <AnimatedParagraph delay={700} charDelay={20}>
                 目的が明確になれば、手段は自然と見えてくる。必要な技術だけを選び、シンプルに、
               </AnimatedParagraph>
-              <AnimatedParagraph delay={5100} charDelay={20}>
+              <AnimatedParagraph delay={1200} charDelay={20}>
                 確実に形にしていきます。
               </AnimatedParagraph>
-              <AnimatedParagraph delay={5500} charDelay={20} className="mt-4">
+              <AnimatedParagraph delay={1400} charDelay={20} className="mt-4">
                 技術で驚かせることが目的ではなく、
               </AnimatedParagraph>
-              <AnimatedParagraph delay={5900} charDelay={20}>
+              <AnimatedParagraph delay={1700} charDelay={20}>
                 あなたのやりたいことが実現した時に、一緒に喜べる関係を目指します。
               </AnimatedParagraph>
             </div>
@@ -94,55 +94,55 @@ export default function Home() {
           {/* Services セクション */}
           <section className="mb-12 lg:mb-16">
             <h2 className="text-[22px] lg:text-[26px] font-black mb-6 lg:mb-8">
-              <AnimatedText delay={6400} charDelay={50}>
+              <AnimatedText delay={0} charDelay={50}>
                 Services
               </AnimatedText>
             </h2>
             <div className="grid gap-6">
               <div className="border-l-2 border-gray-900 pl-4">
                 <h3 className="text-[16px] lg:text-[17px] font-bold mb-2">
-                  <AnimatedText delay={6800} charDelay={30}>
+                  <AnimatedText delay={100} charDelay={30}>
                     Webアプリケーション開発
                   </AnimatedText>
                 </h3>
                 <p className="text-[13px] lg:text-[14px] text-gray-600 leading-relaxed">
-                  <AnimatedText delay={7200} charDelay={15}>
+                  <AnimatedText delay={300} charDelay={15}>
                     業務システム、SaaS、管理画面など、ビジネスの課題を解決するWebアプリを開発します。
                   </AnimatedText>
                 </p>
               </div>
               <div className="border-l-2 border-gray-900 pl-4">
                 <h3 className="text-[16px] lg:text-[17px] font-bold mb-2">
-                  <AnimatedText delay={7600} charDelay={30}>
+                  <AnimatedText delay={100} charDelay={30}>
                     モバイルアプリ開発
                   </AnimatedText>
                 </h3>
                 <p className="text-[13px] lg:text-[14px] text-gray-600 leading-relaxed">
-                  <AnimatedText delay={8000} charDelay={15}>
+                  <AnimatedText delay={300} charDelay={15}>
                     iOS/Android対応のネイティブ・クロスプラットフォームアプリを設計から実装まで。
                   </AnimatedText>
                 </p>
               </div>
               <div className="border-l-2 border-gray-900 pl-4">
                 <h3 className="text-[16px] lg:text-[17px] font-bold mb-2">
-                  <AnimatedText delay={8400} charDelay={30}>
+                  <AnimatedText delay={100} charDelay={30}>
                     システム開発・API構築
                   </AnimatedText>
                 </h3>
                 <p className="text-[13px] lg:text-[14px] text-gray-600 leading-relaxed">
-                  <AnimatedText delay={8800} charDelay={15}>
+                  <AnimatedText delay={300} charDelay={15}>
                     バックエンドシステム、API設計・開発、既存システムとの連携を行います。
                   </AnimatedText>
                 </p>
               </div>
               <div className="border-l-2 border-gray-900 pl-4">
                 <h3 className="text-[16px] lg:text-[17px] font-bold mb-2">
-                  <AnimatedText delay={9200} charDelay={30}>
+                  <AnimatedText delay={100} charDelay={30}>
                     AI/ML ソリューション
                   </AnimatedText>
                 </h3>
                 <p className="text-[13px] lg:text-[14px] text-gray-600 leading-relaxed">
-                  <AnimatedText delay={9600} charDelay={15}>
+                  <AnimatedText delay={300} charDelay={15}>
                     生成AI、機械学習を活用した機能開発。業務効率化からプロダクト組み込みまで対応。
                   </AnimatedText>
                 </p>
@@ -153,18 +153,18 @@ export default function Home() {
           {/* About セクション */}
           <section className="mb-12 lg:mb-16">
             <h2 className="text-[22px] lg:text-[26px] font-black mb-6 lg:mb-8">
-              <AnimatedText delay={10000} charDelay={50}>
+              <AnimatedText delay={0} charDelay={50}>
                 About
               </AnimatedText>
             </h2>
             <div className="text-[14px] lg:text-[15px] leading-[2.0] lg:leading-[2.2] font-medium text-gray-800 mb-6">
-              <AnimatedParagraph delay={10400} charDelay={20}>
+              <AnimatedParagraph delay={200} charDelay={20}>
                 AIを活用したフルスタック開発を得意とするソフトウェアエンジニアです。
               </AnimatedParagraph>
-              <AnimatedParagraph delay={10900} charDelay={20}>
+              <AnimatedParagraph delay={700} charDelay={20}>
                 最新のAI技術を取り入れながら、本当に必要なものを、必要なだけ作る。
               </AnimatedParagraph>
-              <AnimatedParagraph delay={11400} charDelay={20}>
+              <AnimatedParagraph delay={1200} charDelay={20}>
                 そのシンプルな姿勢で、あなたのプロジェクトに向き合います。
               </AnimatedParagraph>
             </div>
@@ -195,12 +195,12 @@ export default function Home() {
           {/* Contact セクション */}
           <section className="mb-12 lg:mb-16">
             <h2 className="text-[22px] lg:text-[26px] font-black mb-6 lg:mb-8">
-              <AnimatedText delay={12000} charDelay={50}>
+              <AnimatedText delay={0} charDelay={50}>
                 Contact
               </AnimatedText>
             </h2>
             <div className="text-[14px] lg:text-[15px] leading-[2.0] lg:leading-[2.2] font-medium text-gray-800 mb-6">
-              <AnimatedParagraph delay={12400} charDelay={20}>
+              <AnimatedParagraph delay={200} charDelay={20}>
                 お仕事のご相談、お見積りなど、お気軽にご連絡ください。
               </AnimatedParagraph>
             </div>
