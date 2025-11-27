@@ -229,7 +229,7 @@ export default function Home() {
           {/* フッター */}
           <footer className="pt-8 lg:pt-12 border-t border-gray-200">
             <p className="text-[12px] lg:text-[13px] text-gray-500">
-              © 2026 Tech Second Inc.
+              © Tech Second Inc.
             </p>
           </footer>
         </div>
