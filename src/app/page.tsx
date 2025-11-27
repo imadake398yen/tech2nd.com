@@ -159,7 +159,7 @@ export default function Home() {
             </h2>
             <div className="text-[14px] lg:text-[15px] leading-[2.0] lg:leading-[2.2] font-medium text-gray-800 mb-6">
               <AnimatedParagraph delay={200} charDelay={20}>
-                AIを活用したフルスタック開発を得意とするソフトウェアエンジニアです。
+                AI-powered Fullstack Engineer。
               </AnimatedParagraph>
               <AnimatedParagraph delay={700} charDelay={20}>
                 最新のAI技術を取り入れながら、本当に必要なものを、必要なだけ作る。
